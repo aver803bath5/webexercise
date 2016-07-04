@@ -1,0 +1,250 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*css reset*/
+
+body{
+	background:url(../images/bg_bady.jpg) no-repeat center top;
+	font-family: 微軟正黑體;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 90px;
+}
+
+.header{
+    height: 120px;
+    background: url(../images/bg_header.png) no-repeat center top;
+    position: relative;
+    z-index: 99;
+}
+
+.header_main{
+    width: 960px;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+}
+
+h1{
+    width: 252px;
+	height: 87px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: 99;
+}
+
+h1 a{
+    background: url(../images/logo.jpg) no-repeat;
+	text-indent: -99999px;
+	width: 252px;
+	height: 87px;
+    margin: 20px 10px 0;
+    display: block;
+}
+
+.nav{
+    height: 40px;
+    position: absolute;
+    top: 60px;
+    right:0px;
+}
+
+.nav li{
+	float: left;
+    margin-left: 1.2em;
+    display: block;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.nav a {
+	font-size: 1rem;
+    color: #8e8e8e;
+    text-decoration: none;
+    height: 60px;
+    display: block;
+}
+
+.nav a:hover{
+	color: #c4b148;
+}
+
+.subnav_product {
+    padding: .2em 2em;
+    background:  url(../images/bg_subnav.png) no-repeat left top;
+    position: absolute;
+    top: 110px;
+    left: 355px;
+    font-weight: bold;
+    display: none;
+    z-index: 9999;
+}
+
+.subnav_product li {
+    margin: 1.5em auto;
+}
+
+.subnav_product a{
+	font-size: 1rem;
+	text-decoration: none;
+    color: #000;
+}
+
+.subnav_product a:hover{
+	text-decoration: underline;
+}
+
+.kv_home{
+    height: 320px;
+    margin: 0 auto;
+    background: #0d0d0d;
+    position: relative;
+    top: -10px;
+    z-index: 50;
+}
+
+.kv_homeMain {
+    width: 960px;
+    height: 320px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container_home {
+    width: 960px;
+    margin: 2em auto 0;
+    position: relative;
+}
+
+.news_home {
+    width: 400px;
+    float: left;
+}
+
+.news_home li {
+    margin-bottom: 1.6em;
+    color: #fff;
+}
+
+.news_home .date {
+    padding-right: 1em;
+}
+
+.news_home p {
+    margin-bottom: 1.5em;
+    font-size: 1.5em;
+    color: #c4b148;
+}
+
+.works_home {
+    float: right;
+}
+
+.works_home p {
+    margin-bottom: 1.5em;
+    font-size: 1.5em;
+    color: #c4b148;
+}
+
+.footer {
+    width: 100%;
+    height: 90px;
+    margin: 10px auto;
+    background: rgba(0,0,0,0.3);
+}
+
+.footer_main {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 1em;
+}
+
+
+
+.footer_copyright {
+    float: left;
+    display: inline-block;
+}
+
+.fb {
+    width: 24px;
+    height: 23px;
+    background: url(../images/btn_facebook.png) no-repeat;
+    display: block;
+}
+
+.footer_copyright p {
+    padding: 1em 0 0;
+    color: #fff;
+    font-size: .8em;
+    font-family: Arial;
+}
+
+.footer_info {
+    float: right;
+    display: inline-block;
+    color: #fff;
+}
+
+.footer_info p {
+    padding-top: .1em;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: right;
+}
+
+.clearfix {
+    display: block;
+    clear: both;
+}
+
+.clear{
+	clear: both;
+}
