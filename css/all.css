@@ -122,6 +122,7 @@ h1 a{
     position: absolute;
     top: 110px;
     left: 355px;
+    float: none;
     font-weight: bold;
     display: none;
     z-index: 9999;
@@ -142,7 +143,7 @@ h1 a{
 }
 
 .kv_home{
-    height: 320px;
+    height: auto;
     margin: 0 auto;
     background: #0d0d0d;
     position: relative;
@@ -152,7 +153,7 @@ h1 a{
 
 .kv_homeMain {
     width: 70%;
-    height: 320px;
+    height: auto;
     margin: 0 auto;
     text-align: center;
 }
@@ -160,7 +161,7 @@ h1 a{
 .kv_home_img{
 	display: block;
 	width: 100%;
-	height: 100%;
+	height: auto;
 }
 
 .container_home {
@@ -191,6 +192,11 @@ h1 a{
 
 .works_home {
     float: right;
+}
+
+.works_img{
+	width: 100%;
+	height: auto;
 }
 
 .works_home p {
