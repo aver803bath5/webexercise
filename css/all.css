@@ -151,10 +151,16 @@ h1 a{
 }
 
 .kv_homeMain {
-    width: 960px;
+    width: 70%;
     height: 320px;
     margin: 0 auto;
     text-align: center;
+}
+
+.kv_home_img{
+	display: block;
+	width: 100%;
+	height: 100%;
 }
 
 .container_home {
@@ -210,7 +216,7 @@ h1 a{
 
 .footer_copyright {
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .fb {
@@ -229,7 +235,7 @@ h1 a{
 
 .footer_info {
     float: right;
-    display: inline-block;
+    display: block;
     color: #fff;
 }
 
@@ -240,11 +246,93 @@ h1 a{
     text-align: right;
 }
 
-.clearfix {
-    display: block;
-    clear: both;
-}
 
 .clear{
 	clear: both;
+}
+
+@media screen and (max-width: 768px) {
+	h1{
+	    position: relative;
+	    margin: 0 auto;
+	}
+
+	.nav{
+		width: 95%;
+		margin: 20px auto;
+	    height: 40px;
+	    position: relative;
+	    top: 0px;
+	}
+
+	.header_main{
+		width: 100%;
+	    height: 120px;
+	    margin: 0 auto; 	
+	    position: relative;
+	    top: 0;
+	}
+
+	.kv_homeMain {
+	    width: 100%;
+	}
+
+	.container_home {
+	    width: 100%;
+	    margin:3em auto 0;
+	    position: relative;
+	    text-align: center;
+	}
+
+	.news_home {
+	    width: 400px;
+	    float: none;
+	    margin: 0 auto
+	}
+
+	.works_home {
+	    float: none;
+	}
+
+	.footer{
+		height: 150px;
+	}
+
+	.footer_main {
+	    width: 100%;
+	    margin: 0 auto;
+	    padding-top: 1em;
+	    text-align: center;
+	}
+
+	.footer_copyright {
+	    float: none;
+	}
+
+	.footer_copyright p{
+		font-size: 1rem;
+	}
+
+	.fb{
+		margin: 0 auto
+	}
+
+	.footer_info {
+		margin: 10px auto;
+	    float: none;
+	}
+
+	.footer_info p {
+	    text-align: center;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.nav{
+		position: relative;
+	}
+    .nav li{
+		float: none;
+	}
+
 }
